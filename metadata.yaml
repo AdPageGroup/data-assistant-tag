@@ -1,3 +1,5 @@
 homepage: "https://adpage.io"
 documentation: "https://github.com/AdPageGroup/data-assistant-tag"
 versions:
+  - sha: ea99f0f4ce6bcb6b5db2ab3c37e5ed7b6a41cd9d
+    changeNotes: Initial release.
