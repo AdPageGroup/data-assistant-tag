@@ -1,4 +1,4 @@
-___TERMS_OF_SERVICE___
+﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -642,3 +642,5 @@ scenarios: []
 ___NOTES___
 
 Created on 5/21/2024, 12:56:57 PM
+
+
