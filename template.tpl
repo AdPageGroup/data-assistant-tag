@@ -86,7 +86,7 @@ const safeGetUserId = () => {
   if (requestId === undefined) {
     const dataLayer = copyFromWindow(DATA_LAYER);
     const filteredEvents = dataLayer.filter(
-      (d) => d.event && d.event === "trytagging_user_data"
+      (d) => d && d.event && d.event === "trytagging_user_data"
     );
     const userDataEvent = filteredEvents.length > 0 ? filteredEvents[0] : {};
 
@@ -111,7 +111,7 @@ const safeGetSessionId = () => {
   if (sessionId === undefined) {
     const dataLayer = copyFromWindow(DATA_LAYER);
     const filteredEvents = dataLayer.filter(
-      (d) => d.event && d.event === "trytagging_user_data"
+      (d) => d && d.event && d.event === "trytagging_user_data"
     );
     const userDataEvent = filteredEvents.length > 0 ? filteredEvents[0] : {};
 
