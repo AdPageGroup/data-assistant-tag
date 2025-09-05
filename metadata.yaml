@@ -3,3 +3,5 @@ documentation: "https://github.com/AdPageGroup/data-assistant-tag"
 versions:
   - sha: ea99f0f4ce6bcb6b5db2ab3c37e5ed7b6a41cd9d
     changeNotes: Initial release.
+  - sha: 43124ea940c9503746736021054f883af967c85f
+    changeNotes: Bug fix event name
