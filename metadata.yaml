@@ -5,3 +5,5 @@ versions:
     changeNotes: Initial release.
   - sha: 43124ea940c9503746736021054f883af967c85f
     changeNotes: Bug fix event name
+  - sha: 774d2ee11fb24d4dce0719faf34143a8f49589b3
+    changeNotes: Bug fix where no events where recored
