@@ -230,7 +230,6 @@ const sendPanic = (requestId, userId, timestamp) => {
 };
 
 addEventCallback(function (ctid, _eventData) {
-  log("send request");
   const timestamp = getTimestamp();
   const dataLayer = copyFromWindow(DATA_LAYER);
   const uniqueEventIdCount = safeGetUniqueEventId();
@@ -271,7 +270,7 @@ addEventCallback(function (ctid, _eventData) {
     flushQueue();
   }
 
-  if (dataLayerEvent.event !== "No Event") {
+  if (dataLayerEvent) {
     incrementUniqueEventId();
   } else {
     log("Not incrementing due to no event found");
